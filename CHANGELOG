@@ -1,0 +1,7 @@
+Jun 7 2022 - v1.1.0
+    - Interactive mode removed
+    - Colored text in Windows
+    - Use of atoi() and atol() instead of all of that nonsence
+
+March 17 2022 - v1.0.2
+    Initial version
