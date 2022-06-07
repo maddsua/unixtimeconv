@@ -1,0 +1,62 @@
+[Project]
+FileName=unixtime.dev
+Name=Unix Time Converter
+Type=1
+Ver=2
+ObjFiles=
+Includes=
+Libs=
+PrivateResource=unixtime_private.rc
+ResourceIncludes=
+MakeIncludes=
+Compiler=-std=c11_@@_
+CppCompiler=
+Linker=
+IsCpp=1
+Icon=
+ExeOutput=
+ObjectOutput=
+LogOutput=
+LogOutputEnabled=0
+OverrideOutput=1
+OverrideOutputName=utime.exe
+HostApplication=
+UseCustomMakefile=0
+CustomMakefile=
+CommandLine=
+Folders=
+IncludeVersionInfo=1
+SupportXPThemes=0
+CompilerSet=1
+CompilerSettings=0000000100000000000000000
+UnitCount=1
+
+[VersionInfo]
+Major=1
+Minor=0
+Release=2
+Build=174
+LanguageID=1033
+CharsetID=1252
+CompanyName=maddsua
+FileVersion=1.0.2.174
+FileDescription=Unix to Readable Time Converter
+InternalName=unixtimeconv
+LegalCopyright=https://gitlab.com/maddsua/
+LegalTrademarks=2022 maddsua/dev
+OriginalFilename=unixtime
+ProductName=Unix Time Converter
+ProductVersion=1.0.2.174
+AutoIncBuildNr=1
+SyncProduct=1
+
+[Unit1]
+FileName=main.c
+CompileCpp=0
+Folder=
+Compile=1
+Link=1
+Priority=1000
+OverrideBuildCmd=0
+BuildCmd=$(CC) -c main.c -o main.o $(CFLAGS)
+
