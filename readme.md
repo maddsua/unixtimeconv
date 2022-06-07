@@ -1,24 +1,20 @@
 # UNIX Time Converter
 
-March 17 2022 - v1.0.2
+Jun 7 2022 - v1.1.0
 
-UNIX Time Converter (unixtimeconv, unixtime) is a cmdline app to, you know, convert Epoch timestamp to human readable format and vise-versa.
+UNIX Time Converter (unixtimeconv, unixtime) is a tool to convert Epoch timestamp to human readable format and vise-versa.
 
-Run `utime now` to print current time in human-readable and epoch format
+Usage:
 
-... or simply `utime` to enter interactive mode
+	utime 1654627179000 -g         --->    2022/06/07.18:39:39
+	utime 2022/06/07.18:39:39 -s   --->    1654616379000
 
-- Command `dst` toggles summer time
-- Command `adst` sets it to autodetection
-- Command `gmt` toggles Global Coordinated Time
-- Command `clr` (in unteractive mode) sets everything to default
+Flags:
+ -g : Display GMT time
+ -s : DST on, summer time
+ -w : DST off, winter time
 
+By default DST is off and the local time is used (GMT off)
 
-`utime 2022/05/22.18:50:56 dst` will output:
-
-	---> 1653234656
-	---> 1653234656000
-	(summer time)
-
-[Download package 📦](build-win32/utime-1.0.2.zip)
+[Download package 📦](build-win32/utime-1.1.0.zip)
 
