@@ -33,20 +33,20 @@ UnitCount=1
 
 [VersionInfo]
 Major=1
-Minor=0
-Release=2
-Build=174
+Minor=1
+Release=0
+Build=311
 LanguageID=1033
 CharsetID=1252
 CompanyName=maddsua
-FileVersion=1.0.2.174
+FileVersion=1.1.0.311
 FileDescription=Unix to Readable Time Converter
-InternalName=unixtimeconv
+InternalName=unixtime
 LegalCopyright=https://gitlab.com/maddsua/
-LegalTrademarks=2022 maddsua/dev
-OriginalFilename=unixtime
+LegalTrademarks=2022, maddsua
+OriginalFilename=utime
 ProductName=Unix Time Converter
-ProductVersion=1.0.2.174
+ProductVersion=1.1.0.311
 AutoIncBuildNr=1
 SyncProduct=1
 
